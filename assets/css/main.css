@@ -1927,6 +1927,33 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
 		color: #ffffff !important;
 	}
+ /* Basic reset */
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Style for the home button */
+.home-button {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #9ACFF2; /* Green background color */
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 1em;
+	border-radius: 5px;
+	font-weight: bold;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+	transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect */
+.home-button:hover {
+	background-color: #EDE4E4; /* Slightly darker green on hover */
+}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
