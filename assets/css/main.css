@@ -1954,6 +1954,67 @@ input, select, textarea {
 .home-button:hover {
 	background-color: #EDE4E4; /* Slightly darker green on hover */
 }
+    /* Footer styling */
+    #footer {
+        background-color: #333;
+        color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Center the contact information block */
+    .contact-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Section title styling */
+    #footer h2 {
+        font-size: 1.5em;
+        color: #f8f8f8;
+        margin-bottom: 10px;
+    }
+
+    /* Contact information styling */
+    #footer dl {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    /* Icons styling */
+    #footer .icons {
+        list-style: none;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    #footer .icons li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #footer .icons a {
+        color: #f8f8f8;
+        text-decoration: none;
+    }
+
+    /* Copyright styling */
+    #footer .copyright {
+        font-size: 0.9em;
+        margin-top: 20px;
+        color: #f8f8f8;
+    }
+
+    /* Link styling */
+    #footer a {
+        color: #f8f8f8;
+        text-decoration: underline;
+    }
+
+    /* Hover effect for links */
+    #footer a:hover {
+        color: #ccc;
+    }
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
